@@ -27,13 +27,13 @@ checkbox.addEventListener('change', function() {
 })
 const currentPath = window.location.pathname;
 console.log(currentPath);
-if(currentPath == 'Task-4/html/index.html' || currentPath == 'Task-4/html/'){
+if(currentPath == '/Task-4/html/index.html' || currentPath == 'Task-4/html/'){
   link8.classList.add('active');
 }
-if(currentPath == 'Task-4/html/Search-Employee.html'){
+if(currentPath == '/Task-4/html/Search-Employee.html'){
   link9.classList.add('active');
 }
-if(currentPath == 'Task-4/html/Companies.html'){
+if(currentPath == '/Task-4/html/Companies.html'){
   link10.classList.add('active');
 }
 function changeLinkStyle(linkId) {
