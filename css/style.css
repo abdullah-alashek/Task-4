@@ -641,6 +641,9 @@ footer .copy hr {
     display: flex;
     flex-direction: column;
   }
+  .companies .scroll-imgs .group  {
+    display:none;
+  }
 }
 @media screen and (max-width: 430px) and (min-width: 300px) {
   nav{
